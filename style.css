@@ -1,6 +1,6 @@
 body
 {
-	background: lightblue;
+	background: rgba(199, 199, 22, 0.993);
 }
 
 	.login_div1 , .login_div2
@@ -12,16 +12,16 @@ body
 	}
 
 
-#player1_name , #player2_name
+#player1_name 
 {
 	display: inline-block;
 	margin-left:20px;
 }
-#word
+#question
 {
 	width: 60%;
 }
-#word_display
+#question_display
 {
 	letter-spacing: 5px;
 }
@@ -33,4 +33,7 @@ border-top: 10px solid #AA4465;
 padding: 10px;
 float: none;
 text-align: left;
+}
+#welcomeImgorLogo{
+	width: 30%
 }
